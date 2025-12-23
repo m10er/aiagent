@@ -1,0 +1,38 @@
+name: "\U0001F680 Feature/Task"
+description: Yeni test senaryosu veya iş görevi
+title: "[Task] "
+labels:
+  - "type:task"
+  - "todo"
+body:
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: Kapsam, motivasyon, ilgili doküman/link
+      placeholder: Örn. Login smoke genişletme, Figma linki
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+      description: Bitti sayılması için gereken koşullar
+      placeholder: |
+        - ...
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps / Test data
+      description: Planlanan adımlar, veri setleri, mock ihtiyaçları
+  - type: input
+    id: scope
+    attributes:
+      label: Scope tags
+      description: @ui, @api, ya da her ikisi
+      placeholder: "@api"
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: Riskler, bağımlılıklar, hedef sürüm
