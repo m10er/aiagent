@@ -1,5 +1,5 @@
-name: "\U0001F41B Bug"
-description: Hata raporu ve yeniden üretim adımları
+name: "Bug"
+description: Hata raporu ve yeniden uretim adimlari
 title: "[Bug] "
 labels:
   - "type:bug"
@@ -9,13 +9,13 @@ body:
     id: context
     attributes:
       label: Context
-      description: Kısa özet, hangi kullanıcı/ortam etkilendi?
-      placeholder: Örn. Prod login sayfası, chrome
+      description: Kisa ozet, hangi kullanici/ortam etkilendi?
+      placeholder: Ornek: Prod login sayfasi, Chrome
   - type: textarea
     id: steps
     attributes:
       label: Steps to reproduce
-      description: Adımlar ve test datası
+      description: Adimlar ve test datası
       placeholder: |
         1. ...
         2. ...
@@ -27,7 +27,7 @@ body:
     id: acceptance
     attributes:
       label: Acceptance criteria
-      description: Hata giderildi saymak için ne gerekli?
+      description: Hata giderildi saymak icin ne gerekli?
       placeholder: |
         - ...
   - type: input
@@ -40,7 +40,7 @@ body:
     id: artifacts
     attributes:
       label: Logs / artifacts
-      description: Trace, screenshot, ilgili test komutu ve çıktı
+      description: Trace, screenshot, ilgili test komutu ve cikti
       placeholder: |
         Command: npx playwright test --grep @ui
         Artifacts: <link>

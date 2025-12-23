@@ -1,5 +1,5 @@
-name: "\U0001F680 Feature/Task"
-description: Yeni test senaryosu veya iş görevi
+name: "Feature/Task"
+description: Yeni test senaryosu veya is gorevi
 title: "[Task] "
 labels:
   - "type:task"
@@ -9,13 +9,13 @@ body:
     id: context
     attributes:
       label: Context
-      description: Kapsam, motivasyon, ilgili doküman/link
-      placeholder: Örn. Login smoke genişletme, Figma linki
+      description: Kapsam, motivasyon, ilgili dokuman/link
+      placeholder: Ornek: Login smoke genisletme, Figma linki
   - type: textarea
     id: acceptance
     attributes:
       label: Acceptance criteria
-      description: Bitti sayılması için gereken koşullar
+      description: Bitti sayilmasi icin gereken kosullar
       placeholder: |
         - ...
     validations:
@@ -24,7 +24,7 @@ body:
     id: steps
     attributes:
       label: Steps / Test data
-      description: Planlanan adımlar, veri setleri, mock ihtiyaçları
+      description: Planlanan adimlar, veri setleri, mock ihtiyaclari
   - type: input
     id: scope
     attributes:
@@ -35,4 +35,4 @@ body:
     id: notes
     attributes:
       label: Notes
-      description: Riskler, bağımlılıklar, hedef sürüm
+      description: Riskler, bagimliliklar, hedef surum
