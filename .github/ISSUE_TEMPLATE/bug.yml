@@ -34,7 +34,7 @@ body:
     id: scope
     attributes:
       label: Scope tags
-      description: @ui, @api, ya da her ikisi
+      description: "@ui, @api, ya da her ikisi"
       placeholder: "@ui"
   - type: textarea
     id: artifacts
