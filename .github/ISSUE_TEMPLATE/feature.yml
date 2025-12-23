@@ -10,7 +10,7 @@ body:
     attributes:
       label: Context
       description: Kapsam, motivasyon, ilgili dokuman/link
-      placeholder: Ornek: Login smoke genisletme, Figma linki
+      placeholder: "Ornek: Login smoke genisletme, Figma linki"
   - type: textarea
     id: acceptance
     attributes:

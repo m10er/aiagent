@@ -10,7 +10,7 @@ body:
     attributes:
       label: Context
       description: Kisa ozet, hangi kullanici/ortam etkilendi?
-      placeholder: Ornek: Prod login sayfasi, Chrome
+      placeholder: "Ornek: Prod login sayfasi, Chrome"
   - type: textarea
     id: steps
     attributes:
